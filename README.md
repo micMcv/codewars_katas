@@ -1,1 +1,3 @@
-### solutions for various codewars programming tasks
+# solutions for various codewars programming tasks
+
+## languages [java, python, javascrypt]
