@@ -3,7 +3,7 @@ class Dinglemouse {
         double rpm = -1 d;
         int prevCog = cogs[0];
         for (int currCog: cogs) {
-            rpm *= prevCog * -1 d / currCog;
+            rpm *= prevCog * -1d / currCog;
             prevCog = currCog;
         }
         return rpm;
