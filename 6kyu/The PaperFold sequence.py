@@ -1,7 +1,6 @@
-def paper_fold(t=0):
-    i = -1
+def paper_fold(i=-1,t=0):
     while True:
         i += 1
         t = i
-        while t % 2 != 0:   t //=2
-        yield 0 if t % 4 else 1
+        while t%2: t>>=1
+        yield not t%4
